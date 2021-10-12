@@ -1,0 +1,111 @@
+function task1a(){
+    let numbers = [1,2,3]
+    console.log(numbers)
+}
+
+function task1b(){
+    let mark = ['seat', 'citroen', 'audi', 'bmw', 'maserati']
+    console.log(mark)
+}
+
+function task1c(){
+    let boolean = [true, false, true]
+    console.log(boolean)
+}
+
+function task1d(){
+    let blank = []
+    console.log(blank)
+}
+
+function task1e(){
+    let mix = [1,5,'Ania',true,false]
+    console.log(mix)
+}
+
+function task1f(){
+    let mix = [1,5,'Ania',true,false]
+    console.log(mix[1])
+}
+
+function task1g(){
+    let random = [1, true, 3]
+    console.log(random.length)
+}
+
+function task1h(){
+    let blank = []
+    console.log(blank)
+    blank.push ('Kasia')
+    console.log(blank)
+}
+
+function task2a(){
+    let blank ={}
+    console.log(blank)
+}
+
+function task2b(){
+    let person ={name:'Iza'}
+    console.log(person)
+}
+
+function task2c(){
+    let personDetails ={name:'Jan', lastname: 'Kowalski', age: 18, drivingLicense: true  }
+}
+
+function task2d(){
+    let personDetails ={name:'Jan', lastname: 'Kowalski', age: 18, drivingLicense: true  }
+    console.log(personDetails.age)
+}
+
+function task2e(){
+    let personDetails ={name:'Jan', lastname: 'Kowalski', age: 18, drivingLicense: true  }
+    console.log(personDetails)
+}
+
+function task31(){
+    let isDrunk = true
+    let age = 19
+
+    if( isDrunk === false && age >= 18){
+    console.log('Możesz się napić piwka w barze!')
+    } else if ( isDrunk === true && age >= 18){
+    console.log('Jesteś pijany i nie sprzedamy Ci alkoholu')
+    } else if ( isDrunk === true && age < 18){
+    console.log('Jakim cudem ? Musisz wytrzeźwieć zanim wrócisz do domu!')
+    }else {
+    console.log('Jesteś za młody!!')
+}
+}
+
+function task32(){
+let isDrunk = false
+let age = 19
+
+isDrunk === false && age >= 18 ? console.log('Możesz się napić piwka w barze!') 
+: isDrunk === true && age >= 18 ? console.log('Jesteś pijany i nie sprzedamy Ci alkoholu') 
+: isDrunk === true && age < 18 ? console.log('Jakim cudem ? Musisz wytrzeźwieć zanim wrócisz do domu!') 
+: console.log('Jesteś za młody!!')
+}
+
+function task33(){
+    console.log( true&&false) // false
+    console.log( true||false) // true
+    console.log( false||true) // true
+    console.log( true&&true) // true
+}
+
+function task34(){
+    const i =-1
+    let number =''
+
+    i>0 ? number='dodatnia' : number='ujemna'
+    console.log(number,i)
+}
+
+function task35(){
+    let name = "Jan"
+    let age = 44
+    console.log(`To jest ${name} i ma on ${age} lata!`)
+}
